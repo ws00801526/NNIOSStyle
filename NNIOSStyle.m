@@ -29,16 +29,6 @@ static int gStyleGuideMode;
     return self;
 }
 
-#pragma mark - Override Methods
-
-#pragma mark - Public Methods
-
-#pragma mark - Private Methods
-
-#pragma mark - Events
-
-#pragma mark - Setter
-
 #pragma mark - Getter
 
 - (int)age {

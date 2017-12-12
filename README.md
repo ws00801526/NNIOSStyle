@@ -8,7 +8,47 @@
 
 ## 示例
 
-千言万语不及demo [示例代码]()
+千言万语不及demo [示例代码](https://github.com/ws00801526/NNIOSStyle/blob/master/NNIOSStyle.h)
+
+
+
+### 代码组织结构
+
+```objective-c
+@implementation XXXX
+  
+#pragma mark - Life Cycle
+- (instancetype)init {}
+- (void)dealloc {}
+
+#pragma mark - Override NSObject
+- (NSString *)description {}
+
+#pragma mark - Override Super
+- (void)viewDidLoad {}
+- (void)viewWillAppear:(BOOL)animated {}
+- (void)didReceiveMemoryWarning {}
+
+#pragma mark - Public
+- (void)publicMethods {}
+
+#pragma mark - Private
+- (void)privateMethods {}
+
+#pragma mark - IBEvents
+- (void)submitAction:(id)sender {}
+
+#pragma mark - Protocol
+#pragma mark - UITextFiledDelegate
+#pragma mark - UITableViewDelegate & UITableViewDataSource
+#pragma mark - UICollectionViewDelegate & UICollectionViewDataSource
+
+#pragma mark - Setter
+
+#pragma mark - Getter
+
+@end
+```
 
 
 
@@ -744,12 +784,7 @@ if (great == YES) {  // AVOID.
 
 # 其他 Objective-C 风格指南
 
-如果感觉我们的不太符合你的口味，可以看看下面的风格指南：
-
 -   [Google](https://google.github.io/styleguide/objcguide.xml)
 -   [GitHub](https://github.com/github/objective-c-conventions)
--   [Adium](https://trac.adium.im/wiki/CodingStyle)
--   [Sam Soffes](https://gist.github.com/soffes/812796)
 -   [CocoaDevCentral](http://cocoadevcentral.com/articles/000082.php)
--   [Luke Redpath](http://lukeredpath.co.uk/blog/my-objective-c-style-guide.html)
 -   [Marcus Zarra](http://www.cimgf.com/zds-code-style-guide/)
