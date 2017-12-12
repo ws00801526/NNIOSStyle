@@ -1,6 +1,8 @@
 
 
-## Objective-C 代码规范
+# Objective-C 代码规范
+
+
 
 
 
@@ -134,7 +136,6 @@ else printOtherNickName();
 if (hasNickName) {
   printNickName();
 } else printOtherNickName();
-
 ```
 
 
